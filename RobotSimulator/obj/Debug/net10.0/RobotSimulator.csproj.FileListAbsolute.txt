@@ -1,0 +1,14 @@
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\bin\Debug\net10.0\RobotSimulator.exe
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\bin\Debug\net10.0\RobotSimulator.deps.json
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\bin\Debug\net10.0\RobotSimulator.runtimeconfig.json
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\bin\Debug\net10.0\RobotSimulator.dll
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\bin\Debug\net10.0\RobotSimulator.pdb
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\obj\Debug\net10.0\RobotSimulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\obj\Debug\net10.0\RobotSimulator.AssemblyInfoInputs.cache
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\obj\Debug\net10.0\RobotSimulator.AssemblyInfo.cs
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\obj\Debug\net10.0\RobotSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\obj\Debug\net10.0\RobotSimulator.dll
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\obj\Debug\net10.0\refint\RobotSimulator.dll
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\obj\Debug\net10.0\RobotSimulator.pdb
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\obj\Debug\net10.0\RobotSimulator.genruntimeconfig.cache
+C:\Users\Will\Documents\ChampionDataTechTest\RobotSimulator\obj\Debug\net10.0\ref\RobotSimulator.dll
