@@ -121,7 +121,7 @@
                 case "left":
                     currentRobot.robotRotation = currentRobot.robotRotation - 90;
                     // Check if the robot has moved counter-clockwise
-                    if (currentRobot.robotRotation < 360)
+                    if (currentRobot.robotRotation < 0)
                     {
                         // Subtract the current negative rotation from a full rotation to keep the rotation within 360 degrees
                         currentRobot.robotRotation = 360 - Math.Abs(currentRobot.robotRotation);
