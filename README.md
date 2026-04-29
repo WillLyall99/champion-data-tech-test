@@ -12,14 +12,14 @@
 ## Program installation:
 - Once you have cloned this repository.
 1. All steps below are via the `cli`
-2. Change into the root directory of the repository 
+2. Change into the root directory of the repository. 
     - `cd champion-data-tech-test`
-3. Enter the following command to compile the code 
+3. Enter the following command to compile the code.
     - `dotnet publish`
-4. Once the build has been completed, in the same CLI window
-    - `cd .\RobotSimulator\bin\Release\net10.0`
-5. Locate the `Commands.txt` file in the root directory of the repository and copy it to the same location as `RobotSimulator.exe`
-5. Enter `RobotSimulator.exe` into the CLI window to start the program.
+4. Assuming a successful build, copy the `Commands.txt` file from the `RobotSimulator` directory to `.\RobotSimulator\bin\Release\net10.0\`
+5. Change into the application directory.  
+   - `cd .\RobotSimulator\bin\Release\net10.0`
+6. Run the `RobotSimulator.exe` to start the program.
 
 ## Program usage:
 1. On startup the program will ask whether you want to load a commands file.
