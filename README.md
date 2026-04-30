@@ -10,16 +10,22 @@
 - Issuing the "report" command will print the robots current location and direction.
 
 ## Program installation:
-- Once you have cloned this repository.
-1. All steps below are via the `cli`
-2. Change into the root directory of the repository. 
+- Clone/download this repository and ensure you have the DotNet10 SDK installed.
+- These commands assume you are on Windows, the application will compile and run on Linux, but steps will differ slightly.
+- All steps below are via the Windows `cli`
+
+1. Change into the root directory of the repository. 
     - `cd champion-data-tech-test`
-3. Enter the following command to compile the code.
+2. Enter the following command to compile the code.
     - `dotnet publish`
-4. Assuming a successful build, copy the `Commands.txt` file from the `RobotSimulator` directory to `.\RobotSimulator\bin\Release\net10.0\`
-5. Change into the application directory.  
-   - `cd .\RobotSimulator\bin\Release\net10.0`
-6. Run the `RobotSimulator.exe` to start the program.
+3. Assuming a successful build, change into the `RobotSimulator` directory
+   - `cd RobotSimulator`
+5. Copy the `Commands.txt` file to the application directory.
+   - `copy Commands.txt .\bin\Release\net10.0\` 
+6. Change into the application directory.
+   - `cd .\bin\Release\net10.0`
+6. Run the `RobotSimulator` binary to start the program.
+   - `RobotSimulator.exe`
 
 ## Program usage:
 1. On startup the program will ask whether you want to load a commands file.
@@ -39,9 +45,9 @@
     4. `REPORT`
        - This command can only be issued if the robot has been placed on the table. It will print the robots current position and direction into the CLI.
     5. `PLACE`
-       - This command can be issued more than once to place the robot on a new point on the table, E.G `PLACE 3,2,East`
+       - This command can be issued more than once to place the robot at a new point on the table, E.G `PLACE 3,2,East`
     5. `EXIT`
-       - This command can be issued at any time and will shutdown the application.
+       - This command can be issued at any time and will shut down the application.
 
 
 ## Commands.txt file format:
